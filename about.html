@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | chael2</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* About 페이지 전용 스타일 */
+      .about-flex {
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+      }
+      .profile-section {
+        flex: 1;
+        min-width: 300px;
+        text-align: center;
+      }
+      .profile-img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid var(--primary-light);
+        margin-bottom: 20px;
+      }
+      .info-section {
+        flex: 2;
+        min-width: 300px;
+      }
+      .skill-bar {
+        background: #eee;
+        border-radius: 10px;
+        height: 12px;
+        margin-top: 10px;
+        overflow: hidden;
+      }
+      .skill-fill {
+        background: var(--primary-color);
+        height: 100%;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Chael2's Portfolio</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="github.html">GitHub</a></li>
+        <li><a href="projects.html">Project</a></li>
+        <li><a href="team.html">Team</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero" style="padding: 60px 20px">
+      <h1>About Me</h1>
+      <p>어제보다 오늘 더 성장하는 보안꿈나무, 함유진입니다.</p>
+    </section>
+
+    <div class="container">
+      <div class="about-flex">
+        <div class="profile-section card">
+          <div class="card-content">
+            <img src="image/pro.jpg" alt="프로필 사진" class="profile-img" />
+            <h2 style="border: none; margin-bottom: 10px">함유진 (chael2)</h2>
+            <p style="color: var(--text-sub)">
+              Information Security major & Student
+            </p>
+            <p><i class="fas fa-envelope"></i> yourmail@email.com</p>
+          </div>
+        </div>
+
+        <div class="info-section">
+          <h2>Introduction</h2>
+          <div class="card" style="margin-bottom: 30px">
+            <div class="card-content">
+              <p>
+                안녕하세요! 정보보호학을 전공하며 끊임없이 기록하고 탐구하는
+                학생입니다. 현재 악성코드 분석에 관심을 가지고 있으며,
+                사용자에게 안전하고 인터넷을 만드는 것을 목표로 하고 있습니다.
+              </p>
+            </div>
+          </div>
+
+          <h2>Tech Stack</h2>
+          <div class="grid">
+            <div class="card">
+              <div class="card-content" style="text-align: center">
+                <h3><i class="fab fa-java" style="color: #007396"></i> Java</h3>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-content" style="text-align: center">
+                <h3><i class="fas fa-code" style="color: #5c6bc0"></i> C</h3>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-content" style="text-align: center">
+                <h3>
+                  <i class="fab fa-python" style="color: #3776ab"></i> Python
+                </h3>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-content" style="text-align: center">
+                <h3>
+                  <i class="fab fa-linux" style="color: #000000"></i> Linux
+                </h3>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-content" style="text-align: center">
+                <h3>
+                  <i class="fab fa-html5" style="color: #e34f26"></i> HTML/CSS
+                </h3>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-content" style="text-align: center">
+                <h3>
+                  <i class="fab fa-js" style="color: #f7df1e"></i> JavaScript
+                </h3>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-content" style="text-align: center">
+                <h3>
+                  <i class="fas fa-database" style="color: #4479a1"></i> MySQL
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer><p>© 2026 chael2. All rights reserved.</p></footer>
+  </body>
+</html>

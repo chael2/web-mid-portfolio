@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Hub | chael2</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* 카드를 클릭 가능하게 만드는 추가 CSS */
+      .card-link-wrapper {
+        text-decoration: none;
+        color: inherit;
+        display: block; /* 전체 영역 클릭되게 함 */
+      }
+      /* 기존 스타일 덮어쓰기 방지용 */
+      .card-link-wrapper:hover {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Chael2's Portfolio</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="github.html">GitHub</a></li>
+        <li><a href="projects.html">Project</a></li>
+        <li><a href="team.html">Team</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <h1>Welcome to My Workspace</h1>
+      <p>
+        보안꿈나무 함유진의 포트폴리오 대시보드입니다. 아래 카드를 클릭해 상세
+        내용을 확인하세요.
+      </p>
+    </section>
+
+    <div class="container">
+      <div class="grid">
+        <a href="about.html" class="card-link-wrapper">
+          <div class="card" style="text-align: center; padding-top: 40px">
+            <i
+              class="fas fa-user-circle"
+              style="
+                font-size: 4rem;
+                color: var(--primary-color);
+                margin-bottom: 20px;
+              "
+            ></i>
+            <div class="card-content">
+              <h3>About Me</h3>
+              <p>
+                성장하는 보안꿈나무 함유진의<br />자세한 소개와 기술 스택 보기
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a href="blog.html" class="card-link-wrapper">
+          <div class="card" style="text-align: center; padding-top: 40px">
+            <i
+              class="fas fa-blog"
+              style="font-size: 4rem; color: #ff5722; margin-bottom: 20px"
+            ></i>
+            <div class="card-content">
+              <h3>Tistory Blog</h3>
+              <p>배운 것을 기록하는<br />개인 기술 블로그로 이동</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="github.html" class="card-link-wrapper">
+          <div class="card" style="text-align: center; padding-top: 40px">
+            <i
+              class="fab fa-github"
+              style="font-size: 4rem; color: #333; margin-bottom: 20px"
+            ></i>
+            <div class="card-content">
+              <h3>GitHub (chael2)</h3>
+              <p>소스 코드, 잔디 상태 및<br />주요 레포지토리 모음 보기</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="projects.html" class="card-link-wrapper">
+          <div class="card" style="text-align: center; padding-top: 40px">
+            <i
+              class="fas fa-laptop-code"
+              style="
+                font-size: 4rem;
+                color: var(--primary-color);
+                margin-bottom: 20px;
+              "
+            ></i>
+            <div class="card-content">
+              <h3>My Projects</h3>
+              <p>Web-Pedia 및<br />그동안 진행한 프로젝트 상세 보기</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="team.html" class="card-link-wrapper">
+          <div class="card" style="text-align: center; padding-top: 40px">
+            <i
+              class="fas fa-users"
+              style="
+                font-size: 4rem;
+                color: var(--primary-color);
+                margin-bottom: 20px;
+              "
+            ></i>
+            <div class="card-content">
+              <h3>Team Info</h3>
+              <p>
+                웹피디아(Web-Pedia)를 함께 만든<br />
+                팀원들 소개
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2026 chael2. All rights reserved.</p>
+      <p class="footer-sub">chael2.github.io</p>
+    </footer>
+  </body>
+</html>
